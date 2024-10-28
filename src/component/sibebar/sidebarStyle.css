@@ -1,0 +1,183 @@
+.settings-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+}
+
+.setting-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 0px 20px 30px 0px;
+}
+
+.rectangle {
+    background: #EFFBFF;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+
+.text-heading {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #003F52;
+
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.item-nav-container {
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+.mein-item-menu{
+    padding: 10px 0px 10px 0px;
+}
+.mein-item-menu {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.mein-item-menu:hover {
+    background-color: #024154;
+    color: white;
+}
+
+/* Ensure child elements also inherit the text color */
+.mein-item-menu:hover .typography-heading,
+.mein-item-menu:hover .typography-content{
+    color: white;
+}
+.itembar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px; 
+    gap: 15px; 
+}
+
+.img-fluid {
+    flex-shrink: 0; 
+}
+
+.typography-heading {
+    flex: 1; 
+    text-align: left; 
+    margin: 0; 
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #013D4E;
+}
+
+.rectangle {
+    background: #EFFBFF;
+    padding: 8px 12px;
+    border-radius: 50px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.text-heading {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.typography-mein {
+    margin-left: 65px;
+    margin-top: -5px;
+}
+
+.carlos-sidebar {
+    position: relative;
+    background: #459E97;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    gap: 15px; 
+    border :10px solid #f1f1f130;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+.clarlos-image img {
+    position: absolute;
+    top: -100px;
+    left: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 24px; 
+}
+
+.carlos-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 10px; 
+    margin-top: 60px;
+    
+}
+
+.Immotrust {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    color: white;
+    margin-top: 20px,
+}
+
+.Immotrust-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 50px;
+    color: white;
+    padding: 0 50px;
+    margin: 0;
+}
+
+.carlos-button {
+    background: #6fbab5;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.google-rating{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    
+}
+.google-rating-text{
+    color: #459E97;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.ratio-text{
+    padding: 5px 20px 5px 20px;
+}.ratio-heading{
+    color: #094557dc;
+    font-weight: 500;
+}
